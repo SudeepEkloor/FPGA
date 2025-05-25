@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun May 25 12:20:16 2025
+# Process ID         : 12848
+# Current directory  : C:/Users/Admin/Desktop/FPGA_FOLDER/ses_2/and_1/and_1.runs/synth_1
+# Command line       : vivado.exe -log and_using_dff.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source and_using_dff.tcl
+# Log file           : C:/Users/Admin/Desktop/FPGA_FOLDER/ses_2/and_1/and_1.runs/synth_1/and_using_dff.vds
+# Journal file       : C:/Users/Admin/Desktop/FPGA_FOLDER/ses_2/and_1/and_1.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-FM2DUMI
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+# CPU Frequency      : 1696 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 4194 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 7683 MB
+# Available Virtual  : 1693 MB
+#-----------------------------------------------------------
+source and_using_dff.tcl -notrace
+Command: synth_design -top and_using_dff -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3740
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 802.941 ; gain = 477.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'and_using_dff' [C:/Users/Admin/Desktop/FPGA_FOLDER/codes/and_d.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'and_using_dff' (0#1) [C:/Users/Admin/Desktop/FPGA_FOLDER/codes/and_d.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:30 . Memory (MB): peak = 907.109 ; gain = 582.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 907.109 ; gain = 582.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 907.109 ; gain = 582.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 907.109 ; gain = 582.020
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:48 . Memory (MB): peak = 1098.133 ; gain = 773.043
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:48 . Memory (MB): peak = 1113.906 ; gain = 788.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:49 . Memory (MB): peak = 1114.070 ; gain = 788.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     1|
+|3     |FDRE |     1|
+|4     |IBUF |     3|
+|5     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     7|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:59 . Memory (MB): peak = 1315.223 ; gain = 990.133
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:59 . Memory (MB): peak = 1315.223 ; gain = 990.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:59 . Memory (MB): peak = 1315.223 ; gain = 990.133
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1330.246 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1450.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5918de04
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:14 . Memory (MB): peak = 1450.477 ; gain = 1128.352
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.558 . Memory (MB): peak = 1450.477 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Admin/Desktop/FPGA_FOLDER/ses_2/and_1/and_1.runs/synth_1/and_using_dff.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1450.477 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file and_using_dff_utilization_synth.rpt -pb and_using_dff_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 25 12:22:47 2025...
